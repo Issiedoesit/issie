@@ -15,7 +15,7 @@ const TechJourney = () => {
 
 
   return (
-<div id='techJourney' className={`${variant == 'light' && 'bg-gradient-to-b from-white via-brandPurple2x/40 to-brandPurple1x/40'}`}>
+<div id='techJourney' className={`${variant == 'light' && 'md:bg-gradient-to-b from-white via-brandPurple2x/40 to-brandPurple1x/40'}`}>
         <SectionHeader />
             <div className="py-20 w-full hidden md:block px-5 sm:px-10 lg:px-20">
             <div className='add-bg-1'>
