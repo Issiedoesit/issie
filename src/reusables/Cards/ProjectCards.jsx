@@ -2,8 +2,10 @@ import React from 'react'
 import useThemeStore from '../../hooks/stores/useThemeStore'
 
 
-const ProjectCards = ({ id, data, index, projectImg, projectName, stacks, link, description }) => {
+const ProjectCards = ({ id, index, projectImg, projectName, stacks, link, description }) => {
     const {variant} = useThemeStore(state=>state.theme)
+    const location = window.location.href;
+
 
   return (
     <div id={id} key={index} className={`${variant == 'light' ? 'shadow-xl' : 'shadow-sm shadow-brandGray1x'} col-span-1 rounded-lg w-full`}>
@@ -25,7 +27,7 @@ const ProjectCards = ({ id, data, index, projectImg, projectName, stacks, link, 
                 {stacks.map((stack, i)=>{
                 return <div key={i} className='col-span-1 flex items-center gap-2 border w-full justify-between px-2 py-2 rounded-lg'>
                     <p className='first-letter:uppercase'>{stack.name}</p>
-                    <img src={stack.icon} alt={stack.name} />
+                    <img src={`${location}${stack.icon}`} alt={stack.name} />
                 </div>
             })}
             </div>
