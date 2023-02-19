@@ -6,7 +6,7 @@ const ProjectCards = ({ id, data, index, projectImg, projectName, stacks, link, 
     const {variant} = useThemeStore(state=>state.theme)
 
   return (
-    <div id={id} key={index} className={`${variant == 'light' ? 'shadow-xl' : 'shadow-sm shadow-brandGray1x'} col-span-1 rounded-lg`}>
+    <div id={id} key={index} className={`${variant == 'light' ? 'shadow-xl' : 'shadow-sm shadow-brandGray1x'} col-span-1 rounded-lg w-full`}>
         <div className='h-52 w-full rounded-t-lg'>
             <img src={projectImg} alt="" className='w-full h-full rounded-t-lg' />
         </div>
