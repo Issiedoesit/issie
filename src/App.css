@@ -17,3 +17,19 @@ body{
 .raleway{
   font-family: 'Raleway', sans-serif;
 }
+
+.add-bg-1{
+  background: url('./assets/media/patterns/Stars.png');
+  background-attachment: fixed;
+  background-size: contain;
+}
+/* .add-bg-2{
+  background: url('./assets/media/illustrations/young-women-sitting-with-laptop-on-the-table.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.add-bg-3{
+  background: url('./assets/media/illustrations/doctor-resting-on-book-stacks-on-floor.png');
+  background-attachment: fixed;
+  background-size: cover;
+} */

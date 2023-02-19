@@ -3,6 +3,8 @@ import SectionWrap from '../../reusables/Wraps/SectionWrap'
 import MyPic from '../../assets/media/images/Issie-no-bg.png'
 
 const HeroHome = () => {
+
+
   return (
     <SectionWrap>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-10'>
@@ -50,9 +52,9 @@ const HeroHome = () => {
                     </a>
                 </div>
             </div>
-            <div className='col-span-1 w-fit relative'>
-                <div className='w-fit'>
-                    <svg className='w-full h-fiftyPercent' width="824" height="1136" viewBox="0 0 824 1136" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className='col-span-1 w-full relative'>
+                <div className='w-full flex '>
+                    <svg className='w-full h-550' width="824" height="1136" viewBox="0 0 824 1136" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M159.008 530.972C134.568 579.346 123.388 633.462 126.479 688.423C129.571 743.384 146.836 797.457 176.714 845.748C206.591 894.04 248.138 935.027 297.595 965.001C347.052 994.976 402.859 1012.99 459.967 1017.42L469.616 687.901L159.008 530.972Z" fill="#6C3883" fill-opacity="0.33"/>
                         <path d="M153.008 390.972C128.568 439.346 117.388 493.462 120.479 548.423C123.571 603.384 140.836 657.457 170.714 705.748C200.591 754.04 242.138 795.027 291.595 825.001C341.052 854.976 396.859 872.992 453.967 877.419L463.616 547.901L153.008 390.972Z" fill="#6C3883" fill-opacity="0.33"/>
                         <path d="M147.008 250.972C122.568 299.346 111.388 353.462 114.479 408.423C117.571 463.384 134.836 517.457 164.714 565.748C194.591 614.04 236.138 655.027 285.595 685.001C335.052 714.976 390.859 732.991 447.967 737.419L457.616 407.901L147.008 250.972Z" fill="#6C3883" fill-opacity="0.33"/>

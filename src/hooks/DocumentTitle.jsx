@@ -11,4 +11,4 @@ const useDocTitle = title => {
   return [doctitle, setDocTitle];
 };
 
-export {useDocTitle};
+export default useDocTitle;

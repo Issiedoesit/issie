@@ -14,6 +14,7 @@ module.exports = {
         "text-color-dark-theme": "var(--text-dark-theme)",
         "brandOrange1x":"#CD6613",
         "brandPurple1x":"#6C3883",
+        "brandPurple2x":"#9747FF",
         "brandGray1x":"#E3DCD2",
       },
       fontFamily:{

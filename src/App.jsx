@@ -12,7 +12,7 @@ function App() {
   
 
   return (
-    <div className={`App ${variant == 'light' ? 'bg-white' : 'bg-black'} font-Raleway min-h-screen text-theme-text-color `}>
+    <div className={`App ${variant == 'light' ? 'bg-white' : 'bg-black'} scroll-smooth font-Raleway min-h-screen text-theme-text-color `}>
         <div>
             <Nav />
         </div>
