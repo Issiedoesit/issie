@@ -20,7 +20,7 @@ const ProjectCards = ({ id, data, index, projectImg, projectName, stacks, link, 
         </a>
         <p className='whitespace-nowrap overflow-hidden text-ellipsis pr-5 text-sm text-brandPurple2x'>{description}</p>
         <div className={`space-y-2`}>
-            <h4 className={``}>Tech Stack</h4>
+            <h4 className={`font-bold`}>Tech Stack:</h4>
             <div className={`text-xs grid grid-cols-3 auto-cols-fr auto-rows-fr gap-2 w-full`}>
                 {stacks.map((stack, i)=>{
                 return <div key={i} className='col-span-1 flex items-center gap-2 border w-full justify-between px-2 py-2 rounded-lg'>
