@@ -8,7 +8,7 @@ const ProjectCards = ({ id, index, projectImg, projectName, stacks, link, descri
 
 
   return (
-    <div id={id} key={index} className={`${variant == 'light' ? 'shadow-xl' : 'shadow-sm shadow-brandGray1x'} col-span-1 rounded-lg w-full`}>
+    <div id={id} key={index} className={`${variant == 'light' ? 'shadow-xl border-0.5' : 'shadow-sm shadow-brandGray1x'} col-span-1 rounded-lg w-full`}>
         <div className='h-52 w-full rounded-t-lg'>
             <img src={projectImg} alt="" className='w-full h-full rounded-t-lg' />
         </div>
