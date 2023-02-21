@@ -33,7 +33,7 @@ const ProjectsData = [
         name: "Wordive",
         description: "A dictionary app.",
         link: "https://wordive.vercel.app/",
-        image: "/assets/media/images/projects/MLC.png",
+        image: "https://res.cloudinary.com/issie/image/upload/v1676978843/Portfolio/Wordive.jpg",
         techStack: [
             {
                 id: 1,
