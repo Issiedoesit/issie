@@ -54,7 +54,7 @@ const HeroHome = () => {
                 </div>
             </div>
         </SectionWrap>
-        <SocialLinks id={'floatingLinks'} altStyling={`${variant == 'light' ? 'bg-black' : 'bg-white'} px-2 py-2 rounded-md shadow-md fixed left-0 z-20 top-fiftyPercent -translate-y-fiftyPercent flex flex-col items-center gap-4`} />
+        <SocialLinks id={'floatingLinks'} altStyling={`${variant == 'light' ? 'bg-black' : 'bg-white'} hidden px-2 py-2 rounded-md shadow-md fixed left-0 z-20 top-fiftyPercent -translate-y-fiftyPercent flex-col items-center gap-4`} />
     </InView>
   )
 }

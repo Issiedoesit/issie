@@ -7,12 +7,11 @@ import SocialLinks from '../../reusables/SocialLinks';
 
 const Footer = () => {
     const {variant} = useThemeStore(state=>state.theme)
+
     function handleIntersection(isVisible) {
         const childElement = document.querySelector('#floatingLinks');
         if (isVisible) {
           childElement.style.display = 'none';
-        } else {
-          childElement.style.display = 'flex';
         }
       }
 
@@ -44,8 +43,14 @@ const Footer = () => {
                 <div className='mx-auto w-fit'>
                     <SocialLinks />
                 </div>
-                <div className='text-xs'>
-                    <p>Made with </p>
+                <div className='text-xs flex items-center gap-2 mx-auto w-fit'>
+                    <p>
+                        Made with
+                    </p>
+                    <svg className='inline-block animate-pulse' width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4" d="M19.86 8.09199C19.86 8.24199 19.86 8.39199 19.85 8.53199C18.32 7.96199 16.52 8.31199 15.32 9.39199C14.5027 8.65505 13.4404 8.24867 12.34 8.25199C9.88 8.25199 7.88 10.262 7.88 12.742C7.88 15.572 9.3 17.642 10.66 18.982C10.55 18.972 10.46 18.952 10.38 18.922C7.79 18.032 2 14.352 2 8.09199C2 5.33199 4.22 3.10199 6.96 3.10199C8.59 3.10199 10.03 3.88199 10.93 5.09199C11.3914 4.47443 11.9905 3.973 12.6797 3.62755C13.3689 3.2821 14.1291 3.10214 14.9 3.10199C17.64 3.10199 19.86 5.33199 19.86 8.09199Z" fill="#9747FF"/>
+                        <path d="M18 9.59C16.93 9.59 15.96 10.11 15.36 10.91C14.76 10.11 13.8 9.59 12.72 9.59C10.9 9.59 9.42 11.07 9.42 12.91C9.42 13.62 9.53 14.27 9.73 14.87C10.67 17.84 13.56 19.61 14.99 20.1C15.19 20.17 15.52 20.17 15.73 20.1C17.16 19.61 20.05 17.84 20.99 14.87C21.19 14.26 21.3 13.61 21.3 12.91C21.3 11.07 19.82 9.59 18 9.59Z" fill="#9747FF"/>
+                    </svg>
                 </div>
             </div>
         </footer>
