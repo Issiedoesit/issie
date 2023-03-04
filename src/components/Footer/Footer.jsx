@@ -40,9 +40,9 @@ const Footer = () => {
             </div>
             <div className='md:col-span-4 md:border-l-0.5 border-l-brandPurple1x md:px-5 text-center py-10 md:py-14 space-y-5'>
                 <p className='text-xs'>&copy; Issiedoesit 2023</p>
-                <div className='mx-auto w-fit'>
+                {/* <div className='mx-auto w-fit'>
                     <SocialLinks />
-                </div>
+                </div> */}
                 <div className='text-xs flex items-center gap-2 mx-auto w-fit'>
                     <p>
                         Made with
