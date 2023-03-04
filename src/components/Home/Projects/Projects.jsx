@@ -14,7 +14,7 @@ const Projects = () => {
     const filteredData = ProjectsData.filter((item) => filter === '' || item.type == filter)
 
   return (
-    <SectionWrap>
+    <SectionWrap id={'projects'}>
         <SectionHeader highLightBorderColor={'border-b-brandOrange1x'} remText={'Projects'} textSpan={'Portfolio'} />
         <div className='flex flex-row items-center gap-5 sm:gap-10 justify-between pt-10 pb-5 text-xs sm:text-sm md:text-base'>
           <div>Filter:</div>

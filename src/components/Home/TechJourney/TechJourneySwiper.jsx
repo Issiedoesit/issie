@@ -10,14 +10,7 @@ import "swiper/css/effect-cards";
 // import required modules
 import { EffectCards } from "swiper";
 import SectionHeader from "../../../reusables/Text/Headers/SectionHeader";
-import Designer from '../../../assets/media/illustrations/designer-illustrator-girl-working-at-her-desk-on-a-tablet.png'
-import Group from '../../../assets/media/illustrations/young-women-sitting-with-laptop-on-the-table.png'
 import JourneyCardFrameAlt from "../../../reusables/Cards/JourneyCardFrameAlt";
-import Doctor from '../../../assets/media/illustrations/doctor-resting-on-book-stacks-on-floor.png'
-import Flying from '../../../assets/media/illustrations/flying-black-businesswoman.png'
-import Collaboration from '../../../assets/media/illustrations/woman-in-online-meetings.png'
-import Working from '../../../assets/media/illustrations/young-people-discussing-team-project-at-a-laptop.png'
-import Hopeful from '../../../assets/media/illustrations/young-woman-working-at-the-table.png'
 import useThemeStore from "../../../hooks/stores/useThemeStore";
 import Journey from "../../../data/Journey";
 

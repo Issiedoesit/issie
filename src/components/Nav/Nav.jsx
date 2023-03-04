@@ -98,9 +98,9 @@ const toggleHelper = (el, changes) => {
           <div className='flex flex-col lg:flex-row items-center gap-10'>
             <NavLink href="" className={`px-3 hover:text-brandPurple2x transition-colors ease-in-out duration-500`}>About</NavLink>
             <a href="#techJourney" className={`px-3 hover:text-brandPurple2x transition-colors ease-in-out duration-500`}>My Tech Journey</a>
-            <NavLink exact="true" to="/landlord" className={`px-3 hover:text-brandPurple2x transition-colors ease-in-out duration-500`}>Projects</NavLink>
-            <NavLink exact="true" to="/tenants" className={`px-3 hover:text-brandPurple2x transition-colors ease-in-out duration-500`}>Skills</NavLink>
-            <NavLink exact="true" to="/contact" className={`px-3 hover:text-brandPurple2x transition-colors ease-in-out duration-500`}>Contact</NavLink>
+            <a href="#projects" className={`px-3 hover:text-brandPurple2x transition-colors ease-in-out duration-500`}>Projects</a>
+            <a to="#skills" className={`px-3 hover:text-brandPurple2x transition-colors ease-in-out duration-500`}>Skills</a>
+            <a href="#contact" className={`px-3 hover:text-brandPurple2x transition-colors ease-in-out duration-500`}>Contact</a>
           </div>
           <div className='flex flex-col lg:flex-row items-center gap-4'>
             <a href='https://docs.google.com/document/d/1Ad0tX2nu4hvyqp_CwjdcT4TOIa2sfk-Fh3Z2TBWXPas/edit?usp=sharing' download className='rounded-lg text-sm hover:scale-90 transition-all duration-500 ease-in-out px-4 py-3 text-white bg-brandPurple1x'>Download CV</a>
