@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import Nav from './components/Nav/Nav'
 import useThemeStore from './hooks/stores/useThemeStore'
@@ -20,6 +21,9 @@ function App() {
           <Routes>
             <Route path='/' index element={<Home />} />
           </Routes>
+        </div>
+        <div>
+          <Footer />
         </div>
     </div>
   )
