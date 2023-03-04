@@ -28,7 +28,7 @@ const TechJourney = () => {
                         }else{
                             return <JourneyCards  bg={'add-bg-2'}>
                                 <JourneyCardImg img={stop.img} altText={stop.name} />
-                                <JourneyCardFrame img={stop.img} altText={stop.name} header={stop.header + ' ' + i} >
+                                <JourneyCardFrame img={stop.img} altText={stop.name} header={stop.header} >
                                 <h3 className='text-sm md:text-base lg:text-xl text-brandPurple1x text-center'>{stop.info}</h3>
                                 </JourneyCardFrame>
                             </JourneyCards>
