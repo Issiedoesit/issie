@@ -138,6 +138,36 @@ const ProjectsData = [
                 icon:"/assets/media/icons/js.svg"
             }
         ]
+    },
+    {
+    id: 6,
+    name: "ContactMe",
+    description: "A contact app with book search functionality.",
+    link: "https://contactmenow.vercel.app/",
+    type:'personal',
+    image: "https://res.cloudinary.com/issie/image/upload/v1690285793/Portfolio/contactme_v3njbn.png",
+    techStack: [
+             {
+                id: 1,
+                name: "React",
+                icon:"/assets/media/icons/react.svg"
+            },
+            {
+                id: 2,
+                name: "NodeJs",
+                icon:"/assets/media/icons/nodejs.svg"
+            },
+            {
+                id: 3,
+                name: "Tailwind",
+                icon:"/assets/media/icons/tailwind.svg"
+            },
+            {
+                id: 4,
+                name: "Javascript",
+                icon:"/assets/media/icons/js.svg"
+            }
+        ]
     }
 ]
 

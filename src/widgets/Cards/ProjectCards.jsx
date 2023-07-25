@@ -43,7 +43,7 @@ const ProjectCards = ({ id, index, projectImg, projectName, stacks, link, descri
             <div className={`text-xxs flex flex-wrap auto-cols-fr auto-rows-fr gap-2 w-full`}>
                 {stacks.map((stack, i)=>{
                 return <div key={i} className='col-span-1 flex items-center gap-2 border w-thirtyPercent justify-between px-2 py-2 rounded-lg'>
-                    <p className='first-letter:uppercase'>{stack.name}</p>
+                    <p className='first-letter:uppercase overflow-hidden whitespace-nowrap text-ellipsis'>{stack.name}</p>
                     <img src={`${stack.icon}`} alt={stack.name} className={`w-5`} />
                 </div>
             })}
