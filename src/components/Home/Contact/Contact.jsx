@@ -88,7 +88,7 @@ const Contact = () => {
     <SectionWrap id={'contact'}>
         <SectionHeader highLightBorderColor={'border-b-brandPurple1x'} remText={'Me'} textSpan={'Contact'} />
         <div className='px-4 my-8 border-l border-l-brandPurple2x container'>
-            <form action="" className='py-8 flex flex-col gap-4 max-w-lg mx-auto'>
+            <form action="" className='py-8 flex flex-col w-full gap-4 max-w-lg mx-auto'>
                 <FormInput inputName={"sender"} inputId={"sender"} inputValue={formik.values.sender} inputLabel={'Name'} handleChange={formik.handleChange} handleBlur={formik.handleBlur} fieldError={formik.touched.sender && formik.errors.sender} />
                 <FormInput inputName={"email"} inputId={"email"} inputType={"email"} inputValue={formik.values.email} inputLabel={'Email Address'} inputPlaceholder={'Enter email'} handleChange={formik.handleChange} handleBlur={formik.handleBlur} fieldError={formik.touched.email && formik.errors.email} />
                 <FormInput inputName={"subject"} maxLength={51} inputId={"subject"} inputValue={formik.values.subject} inputLabel={'Subject'} inputPlaceholder={'Enter Subject'} handleChange={formik.handleChange} handleBlur={formik.handleBlur} fieldError={formik.touched.subject && formik.errors.subject} />
