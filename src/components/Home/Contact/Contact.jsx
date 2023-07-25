@@ -33,9 +33,7 @@ const Contact = () => {
         validationSchema: Yup.object({
             email: Yup.string()
             .required('Email address required')
-            .email('Invalid email address')
-            .test(),
-            subject: Yup.string()
+            .email('Invalid email address'),            subject: Yup.string()
             .required('Subject required')
             .max(50, 'Keep subject short (50 words max)'),
             message: Yup.string()
