@@ -9,8 +9,8 @@ import "swiper/css/effect-cards";
 
 // import required modules
 import { EffectCards } from "swiper";
-import SectionHeader from "../../../reusables/Text/Headers/SectionHeader";
-import JourneyCardFrameAlt from "../../../reusables/Cards/JourneyCardFrameAlt";
+import SectionHeader from "../../../widgets/Text/Headers/SectionHeader";
+import JourneyCardFrameAlt from "../../../widgets/Cards/JourneyCardFrameAlt";
 import useThemeStore from "../../../hooks/stores/useThemeStore";
 import Journey from "../../../data/Journey";
 

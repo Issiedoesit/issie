@@ -31,6 +31,11 @@ const Nav = () => {
  useEffect(() => {
      $(document.body).css("--color-primary", primary)
      variant == 'light' ? $(document.body).css("--text-theme", "#161616") : $(document.body).css("--text-theme", "#FFFFFF")
+     if(isOpen){
+      $('body').addClass('max-h-screen overflow-y-hidden')
+     }else{
+      $('body').removeClass('max-h-screen overflow-y-hidden')
+     }
  }, [theme])
   
   let args = [

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import SectionHeader from '../../../reusables/Text/Headers/SectionHeader'
-import SectionWrap from '../../../reusables/Wraps/SectionWrap'
+import SectionHeader from '../../../widgets/Text/Headers/SectionHeader'
+import SectionWrap from '../../../widgets/Wraps/SectionWrap'
 import ProjectsData from '../../../data/ProjectsData'
-import ProjectCards from '../../../reusables/Cards/ProjectCards'
+import ProjectCards from '../../../widgets/Cards/ProjectCards'
 
 
 const Projects = () => {

@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react'
-import SectionWrap from '../../reusables/Wraps/SectionWrap'
+import SectionWrap from '../../widgets/Wraps/SectionWrap'
 import MyPic from '../../assets/media/images/Issie-no-bg.png'
 import { useInView } from 'react-intersection-observer';
 import { InView } from 'react-intersection-observer';
-import SocialLinks from '../../reusables/SocialLinks';
+import SocialLinks from '../../widgets/SocialLinks';
 import useThemeStore from '../../hooks/stores/useThemeStore';
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import useThemeStore from '../../hooks/stores/useThemeStore'
 import { InView } from 'react-intersection-observer';
 import { NavLink } from 'react-router-dom';
-import SocialLinks from '../../reusables/SocialLinks';
+import SocialLinks from '../../widgets/SocialLinks';
 
 
 const Footer = () => {

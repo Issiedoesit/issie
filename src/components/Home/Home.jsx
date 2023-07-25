@@ -3,6 +3,7 @@ import HeroHome from './HeroHome'
 import TechJourney from './TechJourney/TechJourney'
 import useDocTitle from '../../hooks/DocumentTitle'
 import Projects from './Projects/Projects'
+import Contact from './Contact/Contact'
 
 const Home = () => {
   useDocTitle('Issie | Welcome to my Portfolio Page')
@@ -13,6 +14,7 @@ const Home = () => {
         <HeroHome />
         <TechJourney />
         <Projects />
+        <Contact />
     </div>
   )
 }
