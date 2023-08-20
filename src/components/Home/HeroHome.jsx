@@ -17,7 +17,6 @@ const HeroHome = () => {
           childElement.style.display = 'flex';
         }
       }
-    
 
     //   const { heroRef, inView, entry } = useInView({
     //     /* Optional options */
