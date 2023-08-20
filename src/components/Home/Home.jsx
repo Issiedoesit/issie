@@ -15,7 +15,7 @@ const Home = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "url": `${import.meta.env.VITE_APP_PATH}`,
-    "logo": "/src/assets/media/logos/IssieLogo.png"
+    "logo": "/src/assets/media/logos/IssieLogoBlack.png"
   }
 
   
